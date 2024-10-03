@@ -163,9 +163,9 @@ class YingYangTradingBot:
 
     def notion_update(self):
         # Notion 클라이언트 초기화
-        notion = Client(auth='secret_F7GoclSQjpwl5rLSNb11jdLQ3tZ6X9NHZAKpoaB0Zeh')
+        notion = Client(auth='')
         # 데이터베이스 ID 설정
-        database_id = '1138fb03defa801cbb21d4bdddcba2fb'
+        database_id = ''
 
         if self.last_signal is None:
             raise ValueError("Last signal must be generated before updating Notion.")
